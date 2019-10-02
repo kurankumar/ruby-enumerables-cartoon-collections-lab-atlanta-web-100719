@@ -21,6 +21,8 @@ end
 long_planeteer_calls(planeteer_summon)
 
 
+potential_cheese = %w[umbrella spinach cheddar helicopter]
+
 def find_the_cheese(potential_cheese)
   cheeses = %w[gouda cheddar camembert]
 
