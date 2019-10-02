@@ -6,14 +6,13 @@ def roll_call_dwarves(dwarf_names)
   
 end
 
-planeteer_calls = %w[earth wind fire water heart]
+planeteer_summon = %w[earth wind fire water heart]
 
-# Expected return value: ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |call| call.capitalize + '!' }
+def summon_captain_planet(planeteer_summon)
+  planeteer_summon.map { |call| call.capitalize + '!' }
 end
 
-summon_captain_planet(planeteer_calls)
+summon_captain_planet(planeteer_summon)
 
 def long_planeteer_calls# code an argument here
   # Your code here
