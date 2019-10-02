@@ -1,4 +1,13 @@
 def roll_call_dwarves(dwarf_names)
+  dwarves = %w[
+  Doc
+  Dopey
+  Bashful
+  Grumpy
+  Sneezy
+  Sleepy
+  Happy
+]
   
 end
 
